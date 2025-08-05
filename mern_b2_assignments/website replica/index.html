@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML - Wikipedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Wikipedia</div>
+        <input type="text" id="searchInput" placeholder="Search Wikipedia...">
+        <button onclick="searchWiki()">Search</button>
+    </header>
+
+    <nav class="side-nav">
+        <h3>Navigation</h3>
+        <ul>
+            <li><a href="#">Main page</a></li>
+            <li><a href="#">Contents</a></li>
+            <li><a href="#">Current events</a></li>
+            <li><a href="#">Random article</a></li>
+            <li><a href="#">About Wikipedia</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>HTML</h1>
+        <p>From Wikipedia, the free encyclopedia</p>
+
+        <div class="infobox">
+            <h3>HTML</h3>
+            <p>Markup language for web pages</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="150px">
+        </div>
+
+        <div class="toc">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="#history">History</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#elements">Elements</a></li>
+                <li><a href="#see-also">See Also</a></li>
+            </ol>
+        </div>
+
+        <article>
+            <h2 id="history">History</h2>
+            <p>HTML was created by Tim Berners-Lee in late 1991 but was not publicly released until 1993...</p>
+
+            <h2 id="features">Features</h2>
+            <ul>
+                <li>Supports Hyperlinks</li>
+                <li>Embedding Multimedia</li>
+                <li>Semantic Structure</li>
+            </ul>
+
+            <h2 id="elements">Elements</h2>
+            <p>HTML documents are made up of elements. These are represented by tags like &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, etc.</p>
+
+            <h2 id="see-also">See Also</h2>
+            <ul>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Web Development</a></li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2025 Wikipedia Clone | Content from Wikipedia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

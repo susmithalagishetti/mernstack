@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing Page</title>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(skyblue 0%, lightblue 100%);
+            overflow: hidden;
+        }
+
+        .sun {
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            right: 100px;
+            box-shadow: 0 0 50px yellow;
+        }
+
+        .cloud {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+        }
+
+        .cloud1 { width: 100px; height: 60px; top: 80px; left: 150px; }
+        .cloud2 { width: 80px; height: 50px; top: 120px; left: 500px; }
+        .cloud3 { width: 120px; height: 70px; top: 60px; left: 350px; }
+
+        .mountain {
+            width: 0;
+            height: 0;
+            border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
+            border-bottom: 200px solid #556B2F;
+            position: absolute;
+            bottom: 150px;
+        }
+
+        .mountain1 { left: 100px; }
+        .mountain2 { left: 300px; bottom: 130px; transform: scale(1.2); }
+        .mountain3 { left: 500px; }
+
+        .grass {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            background: green;
+        }
+
+        .house {
+            position: absolute;
+            bottom: 150px;
+            left: 300px;
+            width: 200px;
+            height: 150px;
+            background: #8B4513;
+        }
+
+        .roof {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 110px solid transparent;
+            border-right: 110px solid transparent;
+            border-bottom: 80px solid red;
+            top: -80px;
+            left: -10px;
+        }
+
+        .door {
+            position: absolute;
+            width: 50px;
+            height: 80px;
+            background: #654321;
+            bottom: 0;
+            left: 75px;
+        }
+
+        .window {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: lightblue;
+            border: 2px solid #333;
+        }
+
+        .window1 { top: 20px; left: 30px; }
+        .window2 { top: 20px; right: 30px; }
+
+        .tree {
+            position: absolute;
+            bottom: 150px;
+            width: 20px;
+            height: 60px;
+            background: #8B4513;
+        }
+
+        .leaf-layer {
+            position: absolute;
+            width: 60px;
+            height: 40px;
+            background: green;
+            border-radius: 50%;
+            left: -20px;
+            top: -40px;
+        }
+
+        .layer2 {
+            top: -60px;
+            left: -30px;
+            width: 70px;
+        }
+
+        .layer3 {
+            top: -60px;
+            left: 10px;
+            width: 70px;
+        }
+
+        .tree1 { left: 150px; }
+        .tree2 { left: 600px; }
+
+    </style>
+</head>
+<body>
+
+    <div class="sun"></div>
+
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+
+    <div class="mountain mountain1"></div>
+    <div class="mountain mountain2"></div>
+    <div class="mountain mountain3"></div>
+
+    <div class="grass"></div>
+
+    <div class="house">
+        <div class="roof"></div>
+        <div class="door"></div>
+        <div class="window window1"></div>
+        <div class="window window2"></div>
+    </div>
+
+    <div class="tree tree1">
+        <div class="leaf-layer"></div>
+        <div class="leaf-layer layer2"></div>
+        <div class="leaf-layer layer3"></div>
+    </div>
+
+    <div class="tree tree2">
+        <div class="leaf-layer"></div>
+        <div class="leaf-layer layer2"></div>
+        <div class="leaf-layer layer3"></div>
+    </div>
+
+</body>
+</html>

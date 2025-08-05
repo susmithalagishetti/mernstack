@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #a2a9b1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+#searchInput {
+    padding: 5px;
+    width: 250px;
+}
+
+.side-nav {
+    float: left;
+    width: 200px;
+    background-color: #ffffff;
+    border-right: 1px solid #a2a9b1;
+    padding: 10px;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: #0645ad;
+    display: block;
+    padding: 5px 0;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.infobox {
+    float: right;
+    width: 200px;
+    background-color: #f9f9f9;
+    border: 1px solid #a2a9b1;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.toc {
+    background-color: #f9f9f9;
+    border: 1px solid #a2a9b1;
+    padding: 10px;
+    width: 300px;
+    margin: 20px 0;
+}
+
+article {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 5px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #a2a9b1;
+    margin-top: 20px;
+}
